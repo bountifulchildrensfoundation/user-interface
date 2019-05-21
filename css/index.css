@@ -246,6 +246,11 @@ h2 {
   color: white;
   border-radius: 10px;
   cursor: pointer;
+  font-size: 1.2rem;
+}
+.middle-content button:hover {
+  background-color: white;
+  color: firebrick;
 }
 @media (max-width: 500px) {
   .middle-content button {
