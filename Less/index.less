@@ -50,9 +50,11 @@ table {
 }
 
 body {
-  // background-color: gold;
-  // font-family: 'Noto Sans', sans-serif;
-  background-color: bisque;
+  background-color: #fbf5f3;
+  font-family: 'Nunito', sans-serif;
+  @media @phone {
+    background-color: white;
+  }
 }
 
 // .nav-bar {
@@ -114,7 +116,8 @@ body {
 		justify-content: space-between;
 		height: 100%;
 		align-items: center;
-		background-color: lightcoral;
+    background-color: #022153;
+    
 		@media @phone {
 			flex-direction: column;
 		}
@@ -131,9 +134,7 @@ body {
 	li {
 		margin: 0 20px;
         font-size: 1.2em;
-        // &:hover {
-        //     .custom-animation()
-        // }
+        
 	}
 
 	a {
@@ -147,17 +148,26 @@ body {
   margin: 0 auto;
   background-color: white;
   @media @phone {
-    background-color: bisque;
+    background-color: white;
   }
 }
 
 .top-content {
-  // height: 400px;
-  width: 100%;
+  // height: 700px;
+  // width: 100%;
+  // background: rgb(0, 81, 255);
   @media @phone {
     height: 200px;
   }
+  
+  .bg-image {
+    // background: rgb(0, 81, 255);
+    
+  }
   img {
+    
+    opacity: 0.8;
+    
     @media @phone {
       display: none;
     }
@@ -195,10 +205,11 @@ body {
 .content1 {
   width: 100%;
   // height: 200px;
+  
   img {
     width: 100%;
     height: 500px;
-      
+     
   }
   p {
     margin-top: 20px;
@@ -219,7 +230,7 @@ h2 {
   // height: 500px;
   width: 100%;
   // margin-top: 35%;
-  font-family: 'Noto Sans', sans-serif;
+  
   margin-top: 10%;
   .accordion {
     .panel {
@@ -248,7 +259,7 @@ h2 {
       color: firebrick;
     }
     @media @phone {
-      width: 50%;
+      width: 70%;
       height: 50%;
     }
   }
@@ -332,6 +343,3 @@ h4 {
   display: block;
 }
 
-.panel-buttons {
-  
-}

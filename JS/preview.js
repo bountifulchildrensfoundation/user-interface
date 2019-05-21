@@ -15,7 +15,7 @@ class Panel {
     this.content.classList.toggle('toggle-on')
     this.toggleOpen.classList.toggle('hide-btn')
     this.toggleClose.classList.toggle('hide-btn')
-    )
+    
   }
   
 }

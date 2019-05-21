@@ -127,7 +127,13 @@ table {
   border-spacing: 0;
 }
 body {
-  background-color: bisque;
+  background-color: #fbf5f3;
+  font-family: 'Nunito', sans-serif;
+}
+@media (max-width: 500px) {
+  body {
+    background-color: white;
+  }
 }
 .nav {
   height: 75px;
@@ -137,7 +143,7 @@ body {
   justify-content: space-between;
   height: 100%;
   align-items: center;
-  background-color: lightcoral;
+  background-color: #022153;
 }
 @media (max-width: 500px) {
   .nav .nav-all {
@@ -167,16 +173,16 @@ body {
 }
 @media (max-width: 500px) {
   .container {
-    background-color: bisque;
+    background-color: white;
   }
-}
-.top-content {
-  width: 100%;
 }
 @media (max-width: 500px) {
   .top-content {
     height: 200px;
   }
+}
+.top-content img {
+  opacity: 0.8;
 }
 @media (max-width: 500px) {
   .top-content img {
@@ -226,7 +232,6 @@ h2 {
 }
 .middle-content {
   width: 100%;
-  font-family: 'Noto Sans', sans-serif;
   margin-top: 10%;
 }
 .middle-content .accordion .panel .panel-bar {
@@ -254,7 +259,7 @@ h2 {
 }
 @media (max-width: 500px) {
   .middle-content button {
-    width: 50%;
+    width: 70%;
     height: 50%;
   }
 }
