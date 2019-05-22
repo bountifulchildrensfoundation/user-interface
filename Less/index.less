@@ -113,11 +113,14 @@ body {
 	
 	.nav-all {
 		display: flex;
-		justify-content: space-between;
-		height: 100%;
+		justify-content: space-evenly;
+    height: 75px;
+    width: 100%;
 		align-items: center;
     background-color: #022153;
-    
+    opacity: 0.95;
+    position: fixed;
+    z-index: 1;
 		@media @phone {
 			flex-direction: column;
 		}
@@ -125,16 +128,33 @@ body {
 
 	ul {
 		display: flex;
-
+    
 		@media @phone {
 			margin-bottom: 10px;
 		}
-	}
+  }
+  
+  button {
+    // height: 30px;
+    margin-bottom: 1%;
+    // width: 35%;
+    background-color: firebrick;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    &:hover {
+      background-color: white;
+      color: firebrick;
+    }
+  }
 
 	li {
-		margin: 0 20px;
+		margin: 5px 20px;
         font-size: 1.2em;
-        
+    @media @phone {
+      margin: 15px;
+    }   
 	}
 
 	a {
@@ -144,9 +164,11 @@ body {
   }
 
 .container {
-  max-width: 1000px;
+  max-width: 1100px;
   margin: 0 auto;
   background-color: white;
+  position: relative;
+  // top: 100px;
   @media @phone {
     background-color: white;
   }
@@ -161,11 +183,15 @@ body {
   }
   
   .bg-image {
-    // background: rgb(0, 81, 255);
+    background: rgb(0, 81, 255);
+    height: 500px;
     
+    @media @phone {
+      display: none;
+    }
   }
   img {
-    
+    // height: 425px;
     opacity: 0.8;
     
     @media @phone {
@@ -229,16 +255,23 @@ h2 {
   // align-items: center;
   // height: 500px;
   width: 100%;
+  // background-color: #c5cdd6;
   // margin-top: 35%;
   
   margin-top: 10%;
   .accordion {
+    display: flex;
+    justify-content: space-evenly;
     .panel {
+      
       .panel-bar {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
+        // display: flex;
+        // flex-direction: column;
+        // justify-content: space-evenly;
+        // align-items: center;
+        
+        
+        
       }
     }
   }
@@ -274,14 +307,15 @@ h2 {
 
 .content-2 {
   // height: 450px;
-  width: 50%;
+  // width: 50%;
+  width: 200px;
   // background-color: lightsteelblue;
   text-align: center;
   @media @phone {
     // height: 350px;
   }
   img {
-  width: 500px;
+  width: 200px;
   // height: auto;
   margin-top: 5%;
   border-radius: 10px;
