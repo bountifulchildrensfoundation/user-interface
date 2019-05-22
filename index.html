@@ -7,13 +7,17 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/index.css">
     <script src="JS/preview.js" async></script>
+    <script src="JS/map.js" async></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCr6Sd03jr5pB4XHkSyMMttuctqZjq2W_o&callback=initMap" async defer>
+    </script>
+
     <title>Bountiful Children's Foundation</title>
 </head>
 <body>
          <nav class="nav" id="home">
   
         <div class="nav-all">
-        <h1>Bountiful Children's Foundations</h1>
+        <img src="img/bountiful2.png">
     
         <ul>
             <li><a href="#home">Home</a></li>
@@ -76,17 +80,15 @@
         <section class="middle-content">
             <h2>User Stories</h2>
             <div class="accordion">
-                
                 <div class="panel">
-                    <!-- <h2>User Stories</h2> -->
                     <div class="panel-bar">
-                        <!-- <h2>User Stories</h2> -->
-                    <div class="content-2">
-                    <img src="./img/children4.jpg">
-                    <h3>Peru</h3>
-                    <p>Bountiful saved my sister's life</p>
-                    <div class="panel-content">
-                        <p>But if you make yourself more than just a man, if you devote yourself to an idel and if they can't stop you then you become something else entirely. Legend, Mr Wayne.</p>
+                        <div class="content-2">
+                            <img src="./img/children1.jpg">
+                            <h3>Peru</h3>
+                            <p>Bountiful saved my sister's life</p>
+                        
+                        <div class="panel-content">
+                            <p>But if you make yourself more than just a man, if you devote yourself to an idel and if they can't stop you then you become something else entirely. Legend, Mr Wayne.</p>
                         </div>
                         <div class="panel-buttons">
                             <button class="panel-btn-open">Read Full Story</button>
@@ -103,11 +105,11 @@
                 <button class="panel-btn-close hide-btn">Close</button>
             </div> -->
 
-   <div class="accordion">
+        <div class="accordion">
                 <div class="panel">
                     <div class="panel-bar">
                         <div class="content-2">
-                            <img src="./img/children5.jpg">
+                            <img src="./img/children4.jpg" id="middle-image">
                             <h3>Belize</h3>
                             <p>Belize Sanctions open to more food shortage</p>
                         <div class="panel-content">
@@ -129,7 +131,7 @@
                 <button class="panel-btn-close hide-btn">Close</button>
             </div> -->
 
-<div class="accordion">
+    <div class="accordion">
                 <div class="panel">
                     <div class="panel-bar">
                         <div class="content-2">
@@ -146,9 +148,40 @@
                     </div>
                 </div>               
             </div>
-
+            
+       
+   
         </section>
-    </section>
+            <div class="bottom-content">
+                <h2>Where We Work</h2>
+                <div id="map"></div>
+                <h3>Countries We Are In</h3>
+                <select>
+                    <option value="Countries">Countries</option>
+                    <option value="Bolivia">Bolivia</option>
+                    <option value="Brazil">Brazil</option>
+                    <option value="Cambodia">Cambodia</option>
+                    <option value="Columbia">Columbia</option>
+                    <option value="Ecuador">Ecuador</option>
+                    <option value="El Salvador">El Salvador</option>
+                    <option value="Ghana">Ghana</option>
+                    <option value="Guatemala">Guatemala</option>
+                    <option value="Haiti">Honduras</option>
+                    <option value="Kiribati">Kiribati</option>
+                    <option value="Madagascar">Madagascar</option>
+                    <option value="Mongolia">Mongolia</option>
+                    <option value="Nicaragua">Nicaragua</option>
+                    <option value="Paraguay">Paraguay</option>
+                    <option value="Peru">Peru</option>
+                    <option value="Philippines">Philippines</option>
+                    <option value="Sierra Leone">Sierra Leone</option>
+                    <option value="Zimbabwe">Zimbabwe</option>
+                    
+
+                </select>
+            </div>
+</section>
+     
 
     <footer>
             <p>Copyright&copy; 2019</p>
