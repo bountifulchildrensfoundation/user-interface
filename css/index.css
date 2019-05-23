@@ -143,7 +143,7 @@ table {
 @media (max-width: 500px) {
   .nav .nav-all {
     flex-direction: column;
-    height: 12%;
+    height: 13.5%;
   }
 }
 .nav ul {
