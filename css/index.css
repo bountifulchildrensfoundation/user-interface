@@ -345,8 +345,6 @@ hr {
   width: 300px;
   text-align: center;
 }
-@media (max-width: 500px) {
-}
 .content-2 img {
   width: 250px;
   height: 170px;
@@ -392,11 +390,25 @@ footer p {
   width: 250px;
   line-height: 2rem;
   text-align: center;
+  padding-bottom: 35px;
 }
 .content-3 img {
   height: 200px;
   width: 250px;
   border-radius: 10px;
+}
+.content-3 button {
+  background-color: firebrick;
+  color: white;
+  height: 35px;
+  width: 125px;
+  border-radius: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.content-3 button a {
+  color: white;
+  text-decoration: none;
 }
 h4 {
   text-align: center;
