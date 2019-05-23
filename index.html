@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="JS/preview.js" async></script>
+    <script src="JS/map.js" async></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCr6Sd03jr5pB4XHkSyMMttuctqZjq2W_o&callback=initMap" async defer>
+    </script>
+
+    <title>Bountiful Children's Foundation</title>
+</head>
+<body>
+    <nav class="nav" id="home">
+        <div class="nav-all">
+            <img src="img/bountiful2.png">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="aboutus.html" target="_blank">About Us</a></li>
+                    <li><a href="https://master.d3d8cnda4rcved.amplifyapp.com" target="_blank">Sign In/Register</a></li>
+                    
+                    <button><a href="https://master.d3d8cnda4rcved.amplifyapp.com" target="_blank">Donate</a></button>
+                </ul>
+        </div>
+    </nav>
+
+    <section class="container" >       
+        <header class="top-content" >    
+            <section class="content1">  
+                <div class="bg-image">
+                    <img src="./img/children3.jpg"> 
+                </div>
+
+               <h1 >Ending Child Hunger, One Story At A Time</h1>
+    
+                <p>Bountiful Children's Foundation is a non-profit organization bringing life-altering nutritional supplements to children throughout the world. Simply put, our mission is to nurture the potential of infants and toddlers to lead 
+                healthy, productive, and self-reliant lives by eliminating undernutrition.</p>
+            
+                <p>If you have a story of helping a child in need, please let us know below!</p>
+                
+                <button><a href="https://master.d3d8cnda4rcved.amplifyapp.com">Tell Your Story</a></button>
+                </section>   
+        </header>
+        
+<hr>
+
+        <section class="middle-content">
+            <h2>User Stories</h2>
+                <div class="accordion">
+                    <div class="panel">
+                        <div class="panel-bar">
+                            <div class="content-2">
+                                <img src="./img/children1.jpg">
+                                    <h3>Brazil</h3>
+                                        <p>As a mother in this land of plenty, I cannot imagine being unable to provide my children with food.</p>
+                        <div class="panel-content">
+                            <p>Tatiana Iglézia, a BYU intern, recently traveled to Fortaleza to help with screening for malnutrition this past December (2016). There she met our new LCF Coordinator, Gyrleiwe. In the screening in Fortaleza there were 5 children who were found to be in malnutrition status and qualified to receive nutritional supplements through our program.</p>
+                        </div>
+                        <div class="panel-buttons">
+                            <button class="panel-btn-open">Read Full Story</button>
+                            <button class="panel-btn-close hide-btn">Close</button>
+                        </div>
+                    </div>
+                </div>                       
+            </div>
+
+        <div class="accordion">
+            <div class="panel">
+                <div class="panel-bar">
+                    <div class="content-2">
+                        <img src="./img/children4.jpg" id="middle-image">
+                            <h3>Ecuador</h3>
+                                <p>Ecuador was one of the original countries where the Bountiful Children's Foundation established nutrition programs.</p>
+
+                        <div class="panel-content">
+                            <p>The greatest consolation for us was to be able to arrive at the stake center with multigrain products to alleviate a little of the need of our brothers and sisters. We had stored the product in previous months. My wife and I had almost 24 cans of multigrain cereals saved. What a joy it was for me and my wife to arrive on Sunday and say to the Stake President that the Bountiful Children's Foundation had provision for the children of the church, more than 500 cans of multigrain cereals to alleviate the hunger of our children. </p>
+                        </div>
+                        <div class="panel-buttons">
+                            <button class="panel-btn-open">Read Full Story</button>
+                            <button class="panel-btn-close hide-btn">Close</button>
+                        </div>
+                    </div>
+                </div>                      
+            </div>
+
+
+    <div class="accordion">
+            <div class="panel">
+                <div class="panel-bar">
+                    <div class="content-2">
+                        <img src="./img/children6.jpg">
+                            <h3>Philippines</h3>
+                                <p>In 2013, the Bountiful Children's Foundation visited the central Philippines to screen children for malnutrition in five areas on Bohol and Cebu islands.</p>
+
+                        <div class="panel-content">
+                            <p>The areas were incredibly supportive and were very excited to start nutrition programs for their children. From the screenings on Bohol Island, in the Bogo area, 63 of the 120 children screened were found to be malnourished. In the Calape area on Cebu Island, 108 of the 197 were malnourished. In the Tagbilaron area, 41 of the 80 children screened qualified for the program. Similar rates were found in Mandaue and Lilo-an where 14 of 32, and 48 of 108 children were malnourished, respectively. Since these initial screenings, more areas have been screened throughout the Philippines to now include programs in over 30 areas!</p>
+                        </div>
+                        <div class="panel-buttons">
+                            <button class="panel-btn-open">Read Full Story</button>
+                            <button class="panel-btn-close hide-btn">Close</button>
+                        </div>                   
+                    </div>                
+                </div>                         
+            </div>
+        </section>
+
+<hr>
+
+            <div class="bottom-content">
+                <h2>Where We Work</h2>
+                <div id="map"></div>
+            </div>
+
+            <div class="accordion">
+                <div class="panel">
+                    <div class="panel-bar">
+                        <div class="content-4">
+                            <div class="panel-content">
+                                                
+                            <table>
+                                <tr>
+                                    <th>Central America</th>
+                                    <th>South America</th> 
+                                    <th>Africa</th>
+                                    <th>Asia</th>
+                                </tr>
+                                <tr>
+                                    <td>Belize</td>
+                                    <td>Bolivia</td> 
+                                    <td>Ghana</td>
+                                    <td>Cambodia</td>
+                                    
+                                </tr>
+                                <tr>
+                                    <td>El Salvador</td>
+                                    <td>Brazil</td> 
+                                    <td>Madagascar</td>
+                                    <td>Mongolia</td>
+                                </tr>
+                                <tr>
+                                    <td>Guatemala</td>
+                                    <td>Colombia</td> 
+                                    <td>Sierra Leone</td>
+                                    <td>Philippines</td>
+                                </tr>
+                                <tr>
+                                    <td>Haiti</td>
+                                    <td>Ecuador</td> 
+                                    <td>Zimbabwe</td>
+                                    <td>Kiribati</td>
+                                </tr>
+                                <tr>
+                                    <td>Honduras</td>
+                                    <td>Paraguay</td> 
+                                    
+                                </tr>
+                                <tr>
+                                    <td>Nicaragua</td>
+                                    <td>Peru</td> 
+                                    
+                                </tr>
+                                
+                                </table>    
+
+                            </div>
+                        <div class="panel-buttons">
+                            <button class="panel-btn-open">See All Countries</button>
+                            <button class="panel-btn-close hide-btn">Close</button>
+                        </div>        
+                    </div>     
+                </div>                         
+            </div>
+</section>
+     
+
+    <footer>    
+            <p>Copyright&copy; 2019</p>
+    </footer>
+</body>
+</html>

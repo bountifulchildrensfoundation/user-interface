@@ -1,0 +1,44 @@
+.nav {
+	height: 75px;
+    
+	
+	.nav-all {
+		display: flex;
+		justify-content: space-evenly;
+    height: 75px;
+    width: 100%;
+		align-items: center;
+    background-color: #022153;
+    opacity: 0.95;
+    position: fixed;
+    z-index: 1;
+
+		@media @tablet {
+      flex-direction: column;
+      height: 75px;
+		}
+	}
+
+	ul {
+		display: flex;
+  }
+  
+  button {
+    margin-bottom: 1%;
+    background-color: firebrick;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.2rem;
+  }
+
+	li {
+		margin: 5px 20px;
+        font-size: 1.2em;   
+	}
+
+	a {
+		text-decoration: none;
+        color: azure;
+    }
+  }
