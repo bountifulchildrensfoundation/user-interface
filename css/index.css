@@ -270,6 +270,11 @@ hr {
   width: 75%;
   margin-top: 5%;
 }
+@media (max-width: 500px) {
+  hr {
+    display: none;
+  }
+}
 .middle-content {
   margin-top: 3%;
 }
@@ -294,6 +299,11 @@ hr {
 }
 .middle-content h2 {
   text-align: center;
+}
+@media (max-width: 500px) {
+  .middle-content h2 {
+    margin-top: 170px;
+  }
 }
 .middle-content button {
   height: 40px;
@@ -363,6 +373,13 @@ footer p {
   justify-content: space-evenly;
   margin-top: 5%;
 }
+@media (max-width: 500px) {
+  .aboutus-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .content-3 {
   height: 300px;
   width: 250px;
@@ -382,6 +399,12 @@ h4 {
   border-bottom: 2px solid #3a3580;
   padding-bottom: 15px;
   padding-top: 15px;
+  text-shadow: 1px 1px;
+}
+@media (max-width: 500px) {
+  h4 {
+    margin-top: 25px;
+  }
 }
 .hide-btn {
   display: none;
@@ -411,4 +434,17 @@ h4 {
 }
 #map {
   height: 500px;
+}
+#legend {
+  font-family: Arial, sans-serif;
+  background: #fff;
+  padding: 10px;
+  margin: 10px;
+  border: 3px solid #000;
+}
+#legend h3 {
+  margin-top: 0;
+}
+#legend img {
+  vertical-align: middle;
 }
